@@ -1,0 +1,13 @@
+name: python_morsels
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python >= 3.13
+  - numpy
+  - pandas
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+    - polars
