@@ -50,7 +50,7 @@ print("Hello world")
 
 So what's your guess?
 
-- Will python print Hello world?
+- Will Python print Hello world?
 - Will it print Hello Trey?
 - Will we get an error?
 - Something else?
