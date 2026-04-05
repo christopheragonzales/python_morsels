@@ -20,7 +20,7 @@ print("Hello World!")
 
 Here, we're calling this program:
 
-```bash
+```console
 $ python3 greet.py
 Hello World!
 ```
@@ -38,7 +38,7 @@ In Python, we have [function arguments](
 
 What do you think will happen if we passed an argument to our greet.py program, as we run it through Python?
 
-```bash
+```console
 $ python3 greet.py Trey
 ```
 
@@ -58,7 +58,7 @@ So what's your guess?
 When we run this greet.py program with the argument Trey we see Hello world 
 printed out:
 
-```bash
+```console
 $ python3 greet.py Trey
 Hello world
 ```
@@ -84,7 +84,7 @@ print("Hello world")
 
 The sys.argv list has all of the arguments passed to our Python program:
 
-```bash
+```console
 $ python3 greet.py Trey
 ['greet.py', 'Trey']
 Hello world
@@ -93,7 +93,7 @@ Hello world
 Our sys.argv list here has two things in it, our program name and the argument
 we've passed in.
 
-```bash
+```console
 $ python3 greet.py Trey
 ['greet.py', 'Trey']
 ```
@@ -113,7 +113,7 @@ print("Hello", sys.argv[1])
 We're assuming we get an argument passed in and we're printing that argument
 out:
 
-```bash
+```console
 $ python3 greet.py Trey
 Hello Trey
 $ python3 greet.py Carol
@@ -123,14 +123,14 @@ Hello Carol
 If I pass more than one argument our program is currently just ignoring
 everything after that first argument:
 
-```bash
+```console
 $ python3 greet.py Trey Hunner
 Hello Trey
 ```
 
 What if we pass too few arguments?
 
-```bash
+```console
 $ python3 greet.py
 Traceback (most recent call last):
   File "/home/trey/greet.py", line 3, in <module>
@@ -175,7 +175,7 @@ print(x + y)
 
 What should we see when we run add.py with 2 and 3?
 
-```bash
+```console
 $ python3 add.py 2 3
 ```
 
@@ -187,7 +187,7 @@ Take a guess.
 
 Here's what we see when we run add.py with 2 and 3:
 
-```bash
+```console
 $ python3 add.py 2 3
 23
 ```
@@ -207,7 +207,7 @@ print(sys.argv)
 
 We'll see that it's a list of strings:
 
-```bash
+```console
 $ python3 add.py 2 3
 ['add.py', '2', '3']
 ```
@@ -230,7 +230,7 @@ print(float(x) + float(y))
 
 Now we finally see the result we're expecting:
 
-```bash
+```console
 $ python3 add.py 2 3
 5.0
 ```

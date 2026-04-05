@@ -8,7 +8,7 @@ We've got a string that represents a name Trey, and we're going to make a new
 string `"My name is Trey"`. We're doing this by using the + symbol between the
 string, My name is, and the string Trey:
 
-```bash
+```console
 >>> name = "Trey"
 >>> message = "My name is " + name
 >>> message
@@ -24,7 +24,7 @@ times.
 
 Here's a much longer example of string concatenation:
 
-```bash
+```console
 >>> "My name is " + name + " which has " + len(name) + " characters."
 ```
 
@@ -32,7 +32,7 @@ It's easy to make typos, while you're using string concatenation because you've
 got quotes and pluses all interspersed between each other. We didn't end up
 making a typo above, but we do have a bug in our code.
 
-```bash
+```console
 "My name is " + name + " which has " + len(name) + " characters."
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
@@ -49,7 +49,7 @@ concatenate str (not "int") to str](
 So, we need to convert len(name) to a string in order to concatenate all these
 strings together:
 
-```bash
+```console
 >>> "My name is " + name + " which has " + str(len(name)) + " characters."
 'My name is Trey which has 4 characters.'
 ```
@@ -68,7 +68,7 @@ An f-string isn't the only tool for this (the [string format method is the
 other](https://docs.python.org/3.8/library/stdtypes.html#str.format)), but it's
 the most common one you'll see:
 
-```bash
+```console
 >>> f"My name is {name} which has {len(name)} characters."
 'My name is Trey which has 4 characters.'
 ```
@@ -76,7 +76,7 @@ the most common one you'll see:
 An f-string is a string with an "f" in front of it. Without that "f" in front
 of it, it's just a regular string:
 
-```bash
+```console
 >>> "My name is {name} which has {len(name)} characters."
 'My name is {name} which has {len(name)} characters.'
 ```
@@ -89,7 +89,7 @@ execution, and then convert it to a string if needed (as with len(name)). Next,
 it will stick those little strings inside of our bigger string, essentially
 injecting them into our bigger string:
 
-```bash
+```console
 >>> f"My name is {name} which has {len(name)} characters."
 'My name is Trey which has 4 characters.'
 ```
