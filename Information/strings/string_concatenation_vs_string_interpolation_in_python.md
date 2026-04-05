@@ -60,7 +60,7 @@ more readable.
 ## String Interpolation
 
 The other way to build up a bigger string out of smaller strings is **string
-interpolation**. In Python this is often called string formatting. To do string formatting, we can use an [**f-string**](
+interpolation**. In Python, this is often called string formatting. To do string formatting, we can use an [**f-string**](
     https://docs.python.org/3/whatsnew/3.6.html#whatsnew36-pep498
 ).
 
