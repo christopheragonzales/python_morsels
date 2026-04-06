@@ -19,7 +19,7 @@ if value == "Python":
 In this program, we're prompting a user to enter a value, and then we're
 printing out a response only if the value that they entered is Python:
 
-```bash
+```console
 $ python language.py
 What programming language are you learning? Python
 Cool! This program was written in Python.
@@ -27,7 +27,7 @@ Cool! This program was written in Python.
 
 If they enter anything else, we don't do anything at all:
 
-```bash
+```console
 $ python language.py
 What programming language are you learning? JavaScript
 ```
@@ -55,7 +55,7 @@ else:
 When the condition we're checking is true, we run the block of code right after
 the if statement (the first print line).
 
-```bash
+```console
 $ python language.py
 What programming language are you learning? Python
 Cool! This program was written in Python.
@@ -63,7 +63,7 @@ Cool! This program was written in Python.
 
 Otherwise, we run the block of code just after the else statement (the second print line).
 
-```bash
+```console
 $ python language.py
 What programming language are you learning? JavaScript
 Neat. I haven't tried JavaScript yet.
